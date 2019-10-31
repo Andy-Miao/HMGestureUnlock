@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="15400" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="Btr-C5-FtH">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15404"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Navigation Controller-->
+        <scene sceneID="bYH-ex-GAe">
+            <objects>
+                <navigationController id="Btr-C5-FtH" sceneMemberID="viewController">
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translucent="NO" id="F7F-fs-dF7">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <connections>
+                        <segue destination="BYZ-38-t0r" kind="relationship" relationship="rootViewController" id="Skc-9i-yy8"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Ug2-qo-EDs" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-1357" y="49"/>
+        </scene>
+        <!--指纹手势锁-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="808"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gET-Rs-erv">
+                                <rect key="frame" x="168.5" y="220" width="77" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="l0N-91-44l"/>
+                                    <constraint firstAttribute="height" constant="30" id="qvF-Wm-ErG"/>
+                                </constraints>
+                                <state key="normal" title="弹窗手势锁"/>
+                                <connections>
+                                    <action selector="hm_popupGestureLock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="maj-YM-1Co"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="gy7-mX-OqX">
+                                <rect key="frame" x="168.5" y="319" width="77" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="77" id="1bd-4i-XVC"/>
+                                    <constraint firstAttribute="height" constant="30" id="PNp-rE-sh8"/>
+                                </constraints>
+                                <state key="normal" title="跳转手势锁"/>
+                                <connections>
+                                    <action selector="hm_jumpGestureLock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="FBr-cj-AGB"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="YF4-Mu-44P">
+                                <rect key="frame" x="184" y="114" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="46" id="KiS-wm-mrW"/>
+                                    <constraint firstAttribute="height" constant="30" id="Shs-lC-E7X"/>
+                                </constraints>
+                                <state key="normal" title="指纹锁"/>
+                                <connections>
+                                    <action selector="hm_fingerprintViewLock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="sMY-3I-J9o"/>
+                                </connections>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="zYo-0K-Zhs">
+                                <rect key="frame" x="168.5" y="415" width="77" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="30" id="1se-iV-MTO"/>
+                                    <constraint firstAttribute="width" constant="77" id="iHE-bC-JNZ"/>
+                                </constraints>
+                                <state key="normal" title="验证手势锁"/>
+                                <connections>
+                                    <action selector="hm_verificationGestureLock:" destination="BYZ-38-t0r" eventType="touchUpInside" id="ecr-Uk-0bd"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstItem="gET-Rs-erv" firstAttribute="top" secondItem="YF4-Mu-44P" secondAttribute="bottom" constant="76" id="2ow-VG-HDZ"/>
+                            <constraint firstItem="YF4-Mu-44P" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="114" id="7ow-eD-p4T"/>
+                            <constraint firstItem="zYo-0K-Zhs" firstAttribute="top" secondItem="gy7-mX-OqX" secondAttribute="bottom" constant="66" id="Rfw-ai-b1x"/>
+                            <constraint firstItem="YF4-Mu-44P" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="fLR-3H-af0"/>
+                            <constraint firstItem="gy7-mX-OqX" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="lYm-lZ-opU"/>
+                            <constraint firstItem="gET-Rs-erv" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="n60-Uc-N0l"/>
+                            <constraint firstItem="gy7-mX-OqX" firstAttribute="top" secondItem="gET-Rs-erv" secondAttribute="bottom" constant="69" id="vnx-ic-y2r"/>
+                            <constraint firstItem="zYo-0K-Zhs" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="zDd-ia-6Nc"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
+                    </view>
+                    <navigationItem key="navigationItem" title="指纹手势锁" id="RNi-2B-GFS"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-430" y="49"/>
+        </scene>
+    </scenes>
+</document>

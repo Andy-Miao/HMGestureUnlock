@@ -1,0 +1,392 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		180A63742369324B0040E59E /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A63732369324B0040E59E /* AppDelegate.m */; };
+		180A63772369324B0040E59E /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A63762369324B0040E59E /* SceneDelegate.m */; };
+		180A637A2369324B0040E59E /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A63792369324B0040E59E /* ViewController.m */; };
+		180A637D2369324B0040E59E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A637B2369324B0040E59E /* Main.storyboard */; };
+		180A637F2369325C0040E59E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 180A637E2369325C0040E59E /* Assets.xcassets */; };
+		180A63822369325C0040E59E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 180A63802369325C0040E59E /* LaunchScreen.storyboard */; };
+		180A63852369325C0040E59E /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A63842369325C0040E59E /* main.m */; };
+		180A638E2369335E0040E59E /* HMGestureUnlockView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A638D2369335E0040E59E /* HMGestureUnlockView.m */; };
+		180A639223693C490040E59E /* HMGestureLockCoreView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A639123693C490040E59E /* HMGestureLockCoreView.m */; };
+		180A639523695B930040E59E /* HMLockPreviewView.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A639423695B930040E59E /* HMLockPreviewView.m */; };
+		180A63B0236A7FD50040E59E /* HMFingerprintViewLock.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A63AF236A7FD50040E59E /* HMFingerprintViewLock.m */; };
+		180A63B4236A92060040E59E /* HMGestureUnlockViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 180A63B3236A92060040E59E /* HMGestureUnlockViewController.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		180A636F2369324B0040E59E /* HMGestureUnlock.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HMGestureUnlock.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		180A63722369324B0040E59E /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		180A63732369324B0040E59E /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		180A63752369324B0040E59E /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		180A63762369324B0040E59E /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		180A63782369324B0040E59E /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		180A63792369324B0040E59E /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		180A637C2369324B0040E59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		180A637E2369325C0040E59E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		180A63812369325C0040E59E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		180A63832369325C0040E59E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		180A63842369325C0040E59E /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		180A638C2369335E0040E59E /* HMGestureUnlockView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMGestureUnlockView.h; sourceTree = "<group>"; };
+		180A638D2369335E0040E59E /* HMGestureUnlockView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMGestureUnlockView.m; sourceTree = "<group>"; };
+		180A639023693C490040E59E /* HMGestureLockCoreView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMGestureLockCoreView.h; sourceTree = "<group>"; };
+		180A639123693C490040E59E /* HMGestureLockCoreView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMGestureLockCoreView.m; sourceTree = "<group>"; };
+		180A639323695B930040E59E /* HMLockPreviewView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMLockPreviewView.h; sourceTree = "<group>"; };
+		180A639423695B930040E59E /* HMLockPreviewView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMLockPreviewView.m; sourceTree = "<group>"; };
+		180A63AE236A7FD50040E59E /* HMFingerprintViewLock.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMFingerprintViewLock.h; sourceTree = "<group>"; };
+		180A63AF236A7FD50040E59E /* HMFingerprintViewLock.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMFingerprintViewLock.m; sourceTree = "<group>"; };
+		180A63B2236A92060040E59E /* HMGestureUnlockViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HMGestureUnlockViewController.h; sourceTree = "<group>"; };
+		180A63B3236A92060040E59E /* HMGestureUnlockViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HMGestureUnlockViewController.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		180A636C2369324B0040E59E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		180A63662369324B0040E59E = {
+			isa = PBXGroup;
+			children = (
+				180A63712369324B0040E59E /* HMGestureUnlock */,
+				180A63702369324B0040E59E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		180A63702369324B0040E59E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				180A636F2369324B0040E59E /* HMGestureUnlock.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		180A63712369324B0040E59E /* HMGestureUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				180A63B1236A7FEE0040E59E /* FingerprintLock */,
+				180A638B236932770040E59E /* GestureUnlock */,
+				180A63722369324B0040E59E /* AppDelegate.h */,
+				180A63732369324B0040E59E /* AppDelegate.m */,
+				180A63752369324B0040E59E /* SceneDelegate.h */,
+				180A63762369324B0040E59E /* SceneDelegate.m */,
+				180A63782369324B0040E59E /* ViewController.h */,
+				180A63792369324B0040E59E /* ViewController.m */,
+				180A637B2369324B0040E59E /* Main.storyboard */,
+				180A637E2369325C0040E59E /* Assets.xcassets */,
+				180A63802369325C0040E59E /* LaunchScreen.storyboard */,
+				180A63832369325C0040E59E /* Info.plist */,
+				180A63842369325C0040E59E /* main.m */,
+			);
+			path = HMGestureUnlock;
+			sourceTree = "<group>";
+		};
+		180A638B236932770040E59E /* GestureUnlock */ = {
+			isa = PBXGroup;
+			children = (
+				180A638C2369335E0040E59E /* HMGestureUnlockView.h */,
+				180A638D2369335E0040E59E /* HMGestureUnlockView.m */,
+				180A639023693C490040E59E /* HMGestureLockCoreView.h */,
+				180A639123693C490040E59E /* HMGestureLockCoreView.m */,
+				180A639323695B930040E59E /* HMLockPreviewView.h */,
+				180A639423695B930040E59E /* HMLockPreviewView.m */,
+				180A63B2236A92060040E59E /* HMGestureUnlockViewController.h */,
+				180A63B3236A92060040E59E /* HMGestureUnlockViewController.m */,
+			);
+			path = GestureUnlock;
+			sourceTree = "<group>";
+		};
+		180A63B1236A7FEE0040E59E /* FingerprintLock */ = {
+			isa = PBXGroup;
+			children = (
+				180A63AE236A7FD50040E59E /* HMFingerprintViewLock.h */,
+				180A63AF236A7FD50040E59E /* HMFingerprintViewLock.m */,
+			);
+			path = FingerprintLock;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		180A636E2369324B0040E59E /* HMGestureUnlock */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 180A63882369325C0040E59E /* Build configuration list for PBXNativeTarget "HMGestureUnlock" */;
+			buildPhases = (
+				180A636B2369324B0040E59E /* Sources */,
+				180A636C2369324B0040E59E /* Frameworks */,
+				180A636D2369324B0040E59E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HMGestureUnlock;
+			productName = HMGestureUnlock;
+			productReference = 180A636F2369324B0040E59E /* HMGestureUnlock.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		180A63672369324B0040E59E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1110;
+				ORGANIZATIONNAME = hm;
+				TargetAttributes = {
+					180A636E2369324B0040E59E = {
+						CreatedOnToolsVersion = 11.1;
+					};
+				};
+			};
+			buildConfigurationList = 180A636A2369324B0040E59E /* Build configuration list for PBXProject "HMGestureUnlock" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 180A63662369324B0040E59E;
+			productRefGroup = 180A63702369324B0040E59E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				180A636E2369324B0040E59E /* HMGestureUnlock */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		180A636D2369324B0040E59E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A63822369325C0040E59E /* LaunchScreen.storyboard in Resources */,
+				180A637F2369325C0040E59E /* Assets.xcassets in Resources */,
+				180A637D2369324B0040E59E /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		180A636B2369324B0040E59E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				180A63B4236A92060040E59E /* HMGestureUnlockViewController.m in Sources */,
+				180A639523695B930040E59E /* HMLockPreviewView.m in Sources */,
+				180A637A2369324B0040E59E /* ViewController.m in Sources */,
+				180A639223693C490040E59E /* HMGestureLockCoreView.m in Sources */,
+				180A63B0236A7FD50040E59E /* HMFingerprintViewLock.m in Sources */,
+				180A63742369324B0040E59E /* AppDelegate.m in Sources */,
+				180A63852369325C0040E59E /* main.m in Sources */,
+				180A63772369324B0040E59E /* SceneDelegate.m in Sources */,
+				180A638E2369335E0040E59E /* HMGestureUnlockView.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		180A637B2369324B0040E59E /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180A637C2369324B0040E59E /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		180A63802369325C0040E59E /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				180A63812369325C0040E59E /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		180A63862369325C0040E59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		180A63872369325C0040E59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		180A63892369325C0040E59E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMGestureUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.hm.com.HMGestureUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		180A638A2369325C0040E59E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = HMGestureUnlock/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.0;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = www.hm.com.HMGestureUnlock;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		180A636A2369324B0040E59E /* Build configuration list for PBXProject "HMGestureUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A63862369325C0040E59E /* Debug */,
+				180A63872369325C0040E59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		180A63882369325C0040E59E /* Build configuration list for PBXNativeTarget "HMGestureUnlock" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				180A63892369325C0040E59E /* Debug */,
+				180A638A2369325C0040E59E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 180A63672369324B0040E59E /* Project object */;
+}
